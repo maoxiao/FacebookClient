@@ -58,8 +58,6 @@
 		EE164B72186BF4E600E57778 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = EE164B51186BF4E600E57778 /* settings.png */; };
 		EE164B73186BF4E600E57778 /* settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE164B52186BF4E600E57778 /* settings@2x.png */; };
 		EE164B74186BF4E600E57778 /* wine-cork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE164B53186BF4E600E57778 /* wine-cork.jpg */; };
-		EE239D5D187D112C00A45332 /* UIScrollView+SVInfiniteScrolling.m in Sources */ = {isa = PBXBuildFile; fileRef = EE239D5A187D112C00A45332 /* UIScrollView+SVInfiniteScrolling.m */; };
-		EE239D5E187D112C00A45332 /* UIScrollView+SVPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = EE239D5C187D112C00A45332 /* UIScrollView+SVPullToRefresh.m */; };
 		EE239D60187D116100A45332 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE239D5F187D116100A45332 /* QuartzCore.framework */; };
 		EE48CA22186CFBE5007A6C13 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE48CA21186CFBE5007A6C13 /* FacebookSDK.framework */; };
 		EE4C7657187A880900362B5F /* FBFeeds.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4C7656187A880900362B5F /* FBFeeds.m */; };
@@ -82,6 +80,8 @@
 		EEA3E2C0186BEE3E00014F34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EEA3E2BE186BEE3E00014F34 /* InfoPlist.strings */; };
 		EEA3E2C2186BEE3E00014F34 /* FBClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA3E2C1186BEE3E00014F34 /* FBClientTests.m */; };
 		EEA3E2CE186BEF6100014F34 /* FBClient.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEA3E2CD186BEF6100014F34 /* FBClient.storyboard */; };
+		EEFD0BE4187E11F800E45BD0 /* UIScrollView+SVInfiniteScrolling.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD0BE1187E11F800E45BD0 /* UIScrollView+SVInfiniteScrolling.m */; };
+		EEFD0BE5187E11F800E45BD0 /* UIScrollView+SVPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFD0BE3187E11F800E45BD0 /* UIScrollView+SVPullToRefresh.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -160,11 +160,6 @@
 		EE164B51186BF4E600E57778 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
 		EE164B52186BF4E600E57778 /* settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings@2x.png"; sourceTree = "<group>"; };
 		EE164B53186BF4E600E57778 /* wine-cork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wine-cork.jpg"; sourceTree = "<group>"; };
-		EE239D58187D112C00A45332 /* SVPullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVPullToRefresh.h; sourceTree = "<group>"; };
-		EE239D59187D112C00A45332 /* UIScrollView+SVInfiniteScrolling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+SVInfiniteScrolling.h"; sourceTree = "<group>"; };
-		EE239D5A187D112C00A45332 /* UIScrollView+SVInfiniteScrolling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SVInfiniteScrolling.m"; sourceTree = "<group>"; };
-		EE239D5B187D112C00A45332 /* UIScrollView+SVPullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+SVPullToRefresh.h"; sourceTree = "<group>"; };
-		EE239D5C187D112C00A45332 /* UIScrollView+SVPullToRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SVPullToRefresh.m"; sourceTree = "<group>"; };
 		EE239D5F187D116100A45332 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		EE48CA21186CFBE5007A6C13 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 		EE4C7655187A880900362B5F /* FBFeeds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBFeeds.h; sourceTree = "<group>"; };
@@ -194,6 +189,11 @@
 		EEA3E2BF186BEE3E00014F34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EEA3E2C1186BEE3E00014F34 /* FBClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBClientTests.m; sourceTree = "<group>"; };
 		EEA3E2CD186BEF6100014F34 /* FBClient.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FBClient.storyboard; sourceTree = "<group>"; };
+		EEFD0BDF187E11F800E45BD0 /* SVPullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVPullToRefresh.h; sourceTree = "<group>"; };
+		EEFD0BE0187E11F800E45BD0 /* UIScrollView+SVInfiniteScrolling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+SVInfiniteScrolling.h"; sourceTree = "<group>"; };
+		EEFD0BE1187E11F800E45BD0 /* UIScrollView+SVInfiniteScrolling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SVInfiniteScrolling.m"; sourceTree = "<group>"; };
+		EEFD0BE2187E11F800E45BD0 /* UIScrollView+SVPullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+SVPullToRefresh.h"; sourceTree = "<group>"; };
+		EEFD0BE3187E11F800E45BD0 /* UIScrollView+SVPullToRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SVPullToRefresh.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,7 +225,7 @@
 		EE164A4F186BF05900E57778 /* Library */ = {
 			isa = PBXGroup;
 			children = (
-				EE239D57187D112C00A45332 /* SVPullToRefresh */,
+				EEFD0BDE187E11F800E45BD0 /* SVPullToRefresh */,
 				EE164A75186BF13B00E57778 /* GHSidebarNav */,
 				EE164A81186BF13B00E57778 /* MBProgressHUD */,
 				EE164A84186BF13B00E57778 /* RCSwitch */,
@@ -338,18 +338,6 @@
 				EE164B53186BF4E600E57778 /* wine-cork.jpg */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		EE239D57187D112C00A45332 /* SVPullToRefresh */ = {
-			isa = PBXGroup;
-			children = (
-				EE239D58187D112C00A45332 /* SVPullToRefresh.h */,
-				EE239D59187D112C00A45332 /* UIScrollView+SVInfiniteScrolling.h */,
-				EE239D5A187D112C00A45332 /* UIScrollView+SVInfiniteScrolling.m */,
-				EE239D5B187D112C00A45332 /* UIScrollView+SVPullToRefresh.h */,
-				EE239D5C187D112C00A45332 /* UIScrollView+SVPullToRefresh.m */,
-			);
-			path = SVPullToRefresh;
 			sourceTree = "<group>";
 		};
 		EE4C765B187B8A3C00362B5F /* FBModel */ = {
@@ -480,6 +468,19 @@
 				EEA3E2BE186BEE3E00014F34 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEFD0BDE187E11F800E45BD0 /* SVPullToRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				EEFD0BDF187E11F800E45BD0 /* SVPullToRefresh.h */,
+				EEFD0BE0187E11F800E45BD0 /* UIScrollView+SVInfiniteScrolling.h */,
+				EEFD0BE1187E11F800E45BD0 /* UIScrollView+SVInfiniteScrolling.m */,
+				EEFD0BE2187E11F800E45BD0 /* UIScrollView+SVPullToRefresh.h */,
+				EEFD0BE3187E11F800E45BD0 /* UIScrollView+SVPullToRefresh.m */,
+			);
+			name = SVPullToRefresh;
+			path = Library/SVPullToRefresh;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -624,7 +625,7 @@
 				EE164A97186BF17200E57778 /* BaseLoginController.m in Sources */,
 				EE164A92186BF13B00E57778 /* RCSwitchOnOff.m in Sources */,
 				EE164A91186BF13B00E57778 /* RCSwitch.m in Sources */,
-				EE239D5E187D112C00A45332 /* UIScrollView+SVPullToRefresh.m in Sources */,
+				EEFD0BE5187E11F800E45BD0 /* UIScrollView+SVPullToRefresh.m in Sources */,
 				EE164B31186BF46000E57778 /* Utils.m in Sources */,
 				EE164B2E186BF46000E57778 /* ControllerInfo.m in Sources */,
 				EE164B30186BF46000E57778 /* StoryboardInfo.m in Sources */,
@@ -639,7 +640,7 @@
 				EEA3E2AD186BEE3E00014F34 /* AppDelegate.m in Sources */,
 				EE4C7657187A880900362B5F /* FBFeeds.m in Sources */,
 				EEA3E2A9186BEE3E00014F34 /* main.m in Sources */,
-				EE239D5D187D112C00A45332 /* UIScrollView+SVInfiniteScrolling.m in Sources */,
+				EEFD0BE4187E11F800E45BD0 /* UIScrollView+SVInfiniteScrolling.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
