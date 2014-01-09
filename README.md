@@ -20,10 +20,10 @@ Libraries
 
 How to use
 ----------
-1. Follow official [Facebook sdk guide] to setup your Facebook app and configure your Xcode Project.
+1. Follow official [Facebook sdk guide] to set up your Facebook app and configure your Xcode Project.
 [Facebook sdk guide]: https://developers.facebook.com/docs/ios/getting-started/
 
-2. Setup above libraries.
+2. Set up above libraries.
 
 To-DO list
 ----------
