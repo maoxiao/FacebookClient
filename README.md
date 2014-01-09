@@ -10,11 +10,11 @@ Libraries
 [ADVFlatUI] 
 [ADVFlatUI]: https://github.com/anuj-rajput/ADVFlatUI
 
-###HUD
+###Hud
 [MBProgressHUD]
 [MBProgressHUD]: https://github.com/jdg/MBProgressHUD
 
-###PullToRefresh
+###Pull-To-Refresh
 [SVPullToRefresh]
 [SVPullToRefresh]: https://github.com/samvermette/SVPullToRefresh
 
