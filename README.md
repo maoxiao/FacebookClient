@@ -33,3 +33,7 @@ To-DO list
 2. Handle comment post (e.g. XXXX commented on this.) gracefully.
 
 3. Dynamically adjust the height of tableview cell according to feed conent.
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/maoxiao/facebookclient/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
